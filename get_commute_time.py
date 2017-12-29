@@ -40,6 +40,10 @@ commute_morning, commute_evening = commute_common.copy(), commute_common.copy()
 # commute_morning.update({'origin': HOME, 'destination': WORK})
 commute_evening.update({'origin': WORK, 'destination': HOME})
 # morning_results = gmaps.directions(**commute_morning)
-evening_results = gmaps.directions(**commute_evening)
-
-printFormat(processResults(evening_results))
+try:
+    evening_results = gmaps.directions(**commute_evening)
+    printFormat(processResults(evening_results))
+except Exception:
+    # Error is in same index as duration_with_traffic
+    # for visibility in Ubersicht 
+    printFormat(['','','Error'])
