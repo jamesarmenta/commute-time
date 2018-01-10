@@ -1,6 +1,9 @@
 import private_config
 import googlemaps
 import time
+import sys
+
+args = sys.argv;
 
 # Reference
 # https://developers.google.com/maps/documentation/directions/intro#DirectionsResponseElements
@@ -35,14 +38,22 @@ traffic_model = 'best_guess'
 
 # COMMUTES ------------------
 commute_common = createDict('departure_time', 'mode', 'traffic_model');
-commute_morning, commute_evening = commute_common.copy(), commute_common.copy()
+morning_commute, evening_commute = commute_common.copy(), commute_common.copy()
 
-# commute_morning.update({'origin': HOME, 'destination': WORK})
-commute_evening.update({'origin': WORK, 'destination': HOME})
-# morning_results = gmaps.directions(**commute_morning)
+morning_commute.update({'origin': HOME, 'destination': WORK})
+evening_commute.update({'origin': WORK, 'destination': HOME})
+
+# Assume evening commute
+requested_commute = evening_commute
+# Unless morning was passed in as an arg
+if "morning" in args:
+    requested_commute = morning_commute
+
+# Get the commute
 try:
-    evening_results = gmaps.directions(**commute_evening)
-    printFormat(processResults(evening_results))
+    commute_results = gmaps.directions(**requested_commute)
+    # Print commute results
+    printFormat(processResults(commute_results))
 except Exception:
     # Error is in same index as duration_with_traffic
     # for visibility in Ubersicht 
