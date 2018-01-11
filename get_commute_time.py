@@ -1,6 +1,8 @@
 import private_config
+from write_to_log import write_to_log
 import googlemaps
 import time
+import datetime
 import sys
 
 args = sys.argv;
@@ -28,7 +30,12 @@ def processResults(results):
     duration_average = legs['duration']['text']
     duration_with_traffic = legs['duration_in_traffic']['text']
 
-    return [str(summary), str(duration_average), str(duration_with_traffic)]
+    now = datetime.datetime.now()
+    result_date = now.strftime('%Y%m%d')
+    result_day = now.strftime('%a')
+    result_time = now.strftime('%H%M')
+
+    return [str(result_date), str(result_day), str(result_time), str(summary), str(duration_with_traffic)]
 
 # PARAMS ------------------
 now = lambda: int(time.time())
@@ -46,15 +53,17 @@ evening_commute.update({'origin': WORK, 'destination': HOME})
 # Assume evening commute
 requested_commute = evening_commute
 # Unless morning was passed in as an arg
-if "morning" in args:
+if 'morning' in args:
     requested_commute = morning_commute
 
 # Get the commute
 try:
     commute_results = gmaps.directions(**requested_commute)
     # Print commute results
-    printFormat(processResults(commute_results))
-except Exception:
+    results = processResults(commute_results)
+    printFormat(results)
+    write_to_log(results)
+except Exception as e:
+    print(e)
     # Error is in same index as duration_with_traffic
-    # for visibility in Ubersicht 
-    printFormat(['','','Error'])
+    # for visibility in Ubersicht
