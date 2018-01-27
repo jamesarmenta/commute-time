@@ -62,8 +62,8 @@ try:
     # Print commute results
     results = processResults(commute_results)
     printFormat(results)
-    write_to_log(results)
+    if '-log' in args:
+        write_to_log(results)
 except Exception as e:
-    print(e)
-    # Error is in same index as duration_with_traffic
-    # for visibility in Ubersicht
+    print("Error")
+    # print(e)
