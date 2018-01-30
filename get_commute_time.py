@@ -62,6 +62,7 @@ try:
     # Print commute results
     results = processResults(commute_results)
     printFormat(results)
+    # Save to log if told to do so
     if '-log' in args:
         write_to_log(results)
 except Exception as e:
