@@ -27,7 +27,7 @@ def processResults(results):
     summary = results[0]['summary']
 
     legs = results[0]['legs'][0]
-    duration_average = legs['duration']['text']
+    duration_in_seconds = legs['duration_in_traffic']['value']
     duration_with_traffic = legs['duration_in_traffic']['text']
 
     now = datetime.datetime.now()
@@ -35,7 +35,7 @@ def processResults(results):
     result_day = now.strftime('%a')
     result_time = now.strftime('%H%M')
 
-    return [str(result_date), str(result_day), str(result_time), str(summary), str(duration_with_traffic)]
+    return [str(result_date), str(result_day), str(result_time), str(duration_in_seconds), str(summary), str(duration_with_traffic)]
 
 # PARAMS ------------------
 now = lambda: int(time.time())
