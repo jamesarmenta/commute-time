@@ -12,7 +12,7 @@ args = sys.argv;
 
 # MACROS
 gmaps = googlemaps.Client(key=private_config.googleClientKey())
-HOME = '3239 Zola St., San Diego CA 92106'
+HOME = '1303 W Lewis Street, San Diego, CA 92103'
 WORK = '7535 Torrey Santa Fe Rd, San Diego, CA 92129'
 
 def printFormat(arr):
