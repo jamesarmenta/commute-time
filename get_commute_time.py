@@ -64,7 +64,10 @@ try:
     printFormat(results)
     # Save to log if told to do so
     if '-log' in args:
-        write_to_log(results)
+        if '-morning' in args:
+            write_to_log(results, './log_morning.csv')
+        else:
+            write_to_log(results, './log_evening.csv')
 except Exception as e:
     print("Error")
     # print(e)
