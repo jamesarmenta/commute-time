@@ -53,7 +53,7 @@ evening_commute.update({'origin': WORK, 'destination': HOME})
 # Assume evening commute
 requested_commute = evening_commute
 # Unless morning was passed in as an arg
-if 'morning' in args:
+if '-morning' in args:
     requested_commute = morning_commute
 
 # Get the commute
