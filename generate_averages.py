@@ -16,9 +16,9 @@ for log in log_sources:
                 # If it's 1760, it's actually 1800
                 if (time + 40) % 100 == 0:
                     time = time + 40
-                # skip mornings for now
-                if time < 1200:
-                    continue
+                # DON'T skip mornings for now
+                # if time < 1200:
+                #     continue
                 daytime = day + str(time);
                 averages[daytime]['value'] = averages[daytime]['value'] + int(duration)
                 averages[daytime]['count'] = averages[daytime]['count'] + 1
@@ -46,8 +46,9 @@ for log in log_sources:
         final = sorted(final, key=lambda k: k['daytime'])
         finalfinal = []
         for i in final:
-            finalfinal.append(i['daytime'] + ',' + i['route'] + ',' + str(i['average']))
-        write_to_log(finalfinal, './averages_'+log+'.txt');
+            finalfinal.append('\n'+i['daytime'] + ',' + i['route'] + ',' + str(i['average']))
+        # w to overwrite
+        write_to_log(finalfinal, './averages_'+log+'.txt', 'w');
 
     except Exception as e:
         print e

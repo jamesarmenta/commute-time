@@ -1,7 +1,7 @@
-def write_to_log(dataToPrint, filename):
+def write_to_log(dataToPrint, filename, write_type):
     try:
         # Open log file
-        f = open(filename, "a+");
+        f = open(filename, write_type);
 
         # Print each param, comma separated
         for item in dataToPrint[:-1]:
