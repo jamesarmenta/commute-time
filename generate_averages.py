@@ -2,11 +2,11 @@ import csv
 from collections import defaultdict
 from write_averages import write_averages
 
-averages = defaultdict(lambda: defaultdict(lambda: 0))
 
 log_sources = ["morning", "evening"]
 
 for log in log_sources:
+    averages = defaultdict(lambda: defaultdict(lambda: 0))
     try:
         with open("./log_"+log+".csv", "r") as f:
             reader = csv.reader(f, delimiter=",")
