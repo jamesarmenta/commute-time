@@ -1,6 +1,6 @@
 import csv
 from collections import defaultdict
-from write_to_log import write_to_log
+from write_averages import write_averages
 
 averages = defaultdict(lambda: defaultdict(lambda: 0))
 
@@ -46,9 +46,9 @@ for log in log_sources:
         final = sorted(final, key=lambda k: k['daytime'])
         finalfinal = []
         for i in final:
-            finalfinal.append('\n'+i['daytime'] + ',' + i['route'] + ',' + str(i['average']))
+            finalfinal.append(i['daytime'] + ',' + i['route'] + ',' + str(i['average']))
         # w to overwrite
-        write_to_log(finalfinal, './averages_'+log+'.txt', 'w');
+        write_averages(finalfinal, './averages_'+log+'.txt');
 
     except Exception as e:
         print e

@@ -66,9 +66,9 @@ try:
     if '-log' in args:
         if '-morning' in args:
             # a+ to append
-            write_to_log(results, './log_morning.csv', 'a+')
+            write_to_log(results, './log_morning.csv')
         else:
-            write_to_log(results, './log_evening.csv', 'a+')
+            write_to_log(results, './log_evening.csv')
 except Exception as e:
     print("Error")
     # print(e)
