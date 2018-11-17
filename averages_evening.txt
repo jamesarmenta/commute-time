@@ -15,13 +15,13 @@ Fri1610,routeI-15 S and CA-163 S,2660
 Fri1620,routeI-15 S and CA-163 S,2729
 Fri1630,routeI-15 S,2696
 Fri1640,routeI-15 S and CA-163 S,2765
-Fri1650,routeI-15 S and CA-163 S,2864
-Fri1700,routeI-15 S and CA-163 S,2812
+Fri1650,routeI-15 S and CA-163 S,2907
+Fri1700,routeI-15 S and CA-163 S,2857
 Fri1710,routeI-15 S and CA-163 S,2716
 Fri1720,routeI-15 S and CA-163 S,2678
-Fri1730,routeI-15 S and CA-163 S,2534
-Fri1740,routeI-15 S and CA-163 S,2393
-Fri1750,routeI-15 S and CA-163 S,2194
+Fri1730,routeI-15 S and CA-163 S,2602
+Fri1740,routeI-15 S and CA-163 S,2431
+Fri1750,routeI-15 S and CA-163 S,2261
 Fri1800,routeI-15 S and CA-163 S,1983
 Fri1810,routeI-15 S and CA-163 S,1923
 Fri1820,routeI-15 S and CA-163 S,1843
