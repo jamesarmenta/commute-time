@@ -76,7 +76,7 @@ Thu1420,routeI-15 S and CA-163 S,1570
 Thu1430,routeI-15 S and CA-163 S,1594
 Thu1440,routeI-15 S and CA-163 S,1633
 Thu1450,routeI-15 S and CA-163 S,1700
-Thu1500,routeI-15 S and CA-163 S,1697
+Thu1500,routeI-15 S and CA-163 S,1692
 Thu1510,routeI-15 S and CA-163 S,1712
 Thu1520,routeI-15 S and CA-163 S,1892
 Thu1530,routeI-15 S and CA-163 S,1990
@@ -93,7 +93,7 @@ Thu1710,routeI-15 S and CA-163 S,2870
 Thu1720,routeI-15 S and CA-163 S,2833
 Thu1730,routeI-15 S and CA-163 S,2754
 Thu1740,routeI-15 S and CA-163 S,2629
-Thu1750,routeI-15 S and CA-163 S,2492
+Thu1750,routeI-15 S and CA-163 S,2461
 Thu1800,routeI-15 S and CA-163 S,2335
 Thu1810,routeI-15 S and CA-163 S,2217
 Thu1820,routeI-15 S and CA-163 S,2107
@@ -102,10 +102,10 @@ Thu1840,routeI-15 S and CA-163 S,1856
 Thu1850,routeI-15 S and CA-163 S,1730
 Thu1900,routeI-15 S and CA-163 S,1620
 Thu1910,routeI-15 S and CA-163 S,1577
-Thu1920,routeI-15 S and CA-163 S,1545
+Thu1920,routeI-15 S and CA-163 S,1538
 Thu1930,routeI-15 S and CA-163 S,1519
 Thu1940,routeI-15 S and CA-163 S,1499
-Thu1950,routeI-15 S and CA-163 S,1477
+Thu1950,routeI-15 S and CA-163 S,1474
 Tue1400,routeI-15 S and CA-163 S,1529
 Tue1410,routeI-15 S and CA-163 S,1526
 Tue1420,routeI-15 S and CA-163 S,1542
