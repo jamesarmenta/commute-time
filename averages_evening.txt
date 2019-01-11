@@ -77,7 +77,7 @@ Thu1430,routeI-15 S and CA-163 S,1594
 Thu1440,routeI-15 S and CA-163 S,1633
 Thu1450,routeI-15 S and CA-163 S,1700
 Thu1500,routeI-15 S and CA-163 S,1692
-Thu1510,routeI-15 S and CA-163 S,1712
+Thu1510,routeI-15 S and CA-163 S,1703
 Thu1520,routeI-15 S and CA-163 S,1892
 Thu1530,routeI-15 S and CA-163 S,1990
 Thu1540,routeI-15 S and CA-163 S,2001
