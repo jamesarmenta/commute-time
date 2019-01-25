@@ -96,10 +96,10 @@ Thu1740,routeI-15 S and CA-163 S,2629
 Thu1750,routeI-15 S and CA-163 S,2461
 Thu1800,routeI-15 S and CA-163 S,2335
 Thu1810,routeI-15 S and CA-163 S,2217
-Thu1820,routeI-15 S and CA-163 S,2107
+Thu1820,routeI-15 S and CA-163 S,2096
 Thu1830,routeI-15 S and CA-163 S,1973
 Thu1840,routeI-15 S and CA-163 S,1856
-Thu1850,routeI-15 S and CA-163 S,1730
+Thu1850,routeI-15 S and CA-163 S,1723
 Thu1900,routeI-15 S and CA-163 S,1620
 Thu1910,routeI-15 S and CA-163 S,1577
 Thu1920,routeI-15 S and CA-163 S,1538
