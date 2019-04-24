@@ -120,7 +120,7 @@ Tue1540,routeI-15 S and CA-163 S,1942
 Tue1550,routeI-15 S and CA-163 S,2093
 Tue1600,routeI-15 S and CA-163 S,2118
 Tue1610,routeI-15 S and CA-163 S,2161
-Tue1620,routeI-15 S and CA-163 S,2316
+Tue1620,routeI-15 S and CA-163 S,2324
 Tue1630,routeI-15 S and CA-163 S,2359
 Tue1640,routeI-15 S and CA-163 S,2398
 Tue1650,routeI-15 S and CA-163 S,2456

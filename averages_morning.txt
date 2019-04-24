@@ -63,7 +63,7 @@ Tue810,routeCA-163 N and I-15 N,1784
 Tue820,routeCA-163 N and I-15 N,1774
 Tue830,routeCA-163 N and I-15 N,1740
 Tue840,routeCA-163 N and I-15 N,1715
-Tue850,routeCA-163 N and I-15 N,1709
+Tue850,routeCA-163 N and I-15 N,1708
 Tue900,routeCA-163 N and I-15 N,1688
 Tue910,routeCA-163 N and I-15 N,1647
 Tue920,routeI-5 N and CA-56 E,1604
