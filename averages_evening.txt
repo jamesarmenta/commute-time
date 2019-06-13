@@ -162,9 +162,9 @@ Wed1640,routeI-15 S and CA-163 S,2501
 Wed1650,routeI-15 S and CA-163 S,2615
 Wed1700,routeI-15 S and CA-163 S,2642
 Wed1710,routeI-15 S and CA-163 S,2650
-Wed1720,routeI-15 S and CA-163 S,2713
-Wed1730,routeI-15 S and CA-163 S,2671
-Wed1740,routeI-15 S and CA-163 S,2571
+Wed1720,routeI-15 S and CA-163 S,2709
+Wed1730,routeI-15 S and CA-163 S,2678
+Wed1740,routeI-15 S and CA-163 S,2566
 Wed1750,routeI-15 S and CA-163 S,2372
 Wed1800,routeI-15 S and CA-163 S,2231
 Wed1810,routeI-15 S and CA-163 S,2049
